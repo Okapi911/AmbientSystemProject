@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/auth';
+import LoginScreen from './screens/LoginScreen';
 
 // Import the functions you need from the SDKs you need
 
@@ -36,19 +37,20 @@ const firebaseConfig = {
 
 // Initialize Firebase
 
-const app = initializeApp(firebaseConfig);
+const firebaseApp = initializeApp(firebaseConfig);
+const auth = getAuth(firebaseApp);
 
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 
 
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { getAuth } from 'firebase/auth';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <LoginScreen />
     </View>
   );
 }

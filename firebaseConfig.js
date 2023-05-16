@@ -2,8 +2,8 @@ export default {
     apiKey: "AIzaSyDtKiDviLvkSvGT5xwFtuC2fo-VF9GxZHA",
     authDomain: "ambientsystemsqr.firebaseapp.com",
     projectId: "ambientsystemsqr",
-    storageBucket: "gs://ambientsystemsqr.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID",
+    storageBucket: "ambientsystemsqr.appspot.com",
+    messagingSenderId: "573952725334",
+    appId: "1:573952725334:web:b19779484ae95e8c0ec6f7",
   };
   
